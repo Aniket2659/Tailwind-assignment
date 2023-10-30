@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Question no1</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            
+            <div class="md:col-span-1 p-4">
+                <div class="bg-white p-4 rounded-lg ">
+                    <h1 class="text-2xl font-semibold mb-4 flex items-center justify-center">Login</h1>
+                    <small class="flex items-center justify-center font-semibold from-slate-300 my-3">Enter your credential to access your account</small>
+
+                    <div class="">
+                        <button class="w-full p-2 my-3 border border-gray-300 rounded-md flex items-center justify-center" type="submit">
+                            <img  class="mx-3 text-center" src="../Google__G__Logo.svg" alt="google img"  >
+                               Login with Google
+                          </button>
+                    </div>
+                    <div class="grid grid-cols-3 items-center mt-3 px-1">
+                        <hr>
+                        <p class="text-center">OR</p>
+                        <hr>
+                    </div>
+                    <form action="#" method="post">
+                        <div class="mb-4">
+                            <label for="username" class="block text-gray-950">Email Address</label>
+                            <input type="text" id="username" name="username" class="w-full p-2 border border-gray-300 rounded-md" placeholder="email@gmail.com">
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="block text-gray-950 ">Password</label>
+                            <input type="password" id="password" name="password" class="w-full p-2 border border-gray-300 rounded-md" placeholder="Password">
+                        </div>
+                        <button type="submit" class="bg-blue-500 text-white rounded-md p-2 w-full mt-5 hover:bg-blue-600 ">Login</button>
+
+                        <small class="flex items-center justify-center  from-slate-300 my-3">Don't have an account? <strong class="mx-2">Register here</strong></small>
+                    </form>
+
+                </div>
+            </div>
+            <div class=" md:col-span-1 p-4  max-h-screen">
+                <div class="bg-white p-4 rounded-lg  ">
+                    <img src="../young-happy-woman-with-good-idea-sign-white-shirt-full-portrait.jpg" alt="Image" class="h-full w-full object-contain" style="height: 420px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
